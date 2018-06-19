@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="git://git.ti.com" name="git-ti-com"/>
-  <remote fetch=".." name="omap-mirror" review="http://review.omapzoom.org"/>
+  <remote fetch="git://git.omapzoom.org" name="omap-mirror" review="http://review.omapzoom.org"/>
   
   <default remote="omap-mirror" revision="d-oreo-mr1-release" sync-j="4"/>
   
