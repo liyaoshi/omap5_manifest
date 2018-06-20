@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote fetch="https://github.com/" name="liyaoshi"/>
   <remote fetch="git://git.ti.com" name="git-ti-com"/>
   <remote fetch="git://git.omapzoom.org" name="omap-mirror" review="http://review.omapzoom.org"/>
   
@@ -43,7 +44,7 @@
   <project groups="device,hikey,pdk" name="device/linaro/hikey" revision="35d25a2b3e18d16e7ea92f9689165105e7b3a056" upstream="d-oreo-mr1-release"/>
   <project groups="pdk" name="device/sample" revision="8749163d3d14790128134d63c8a96bb31c301866" upstream="d-oreo-mr1-release"/>
   <project groups="device,ti" name="device/ti/am57xevm" revision="283a077e7db12590dd55c78cbd2693a3a5b88888" upstream="d-oreo-mr1-release"/>
-  <project groups="device,ti" name="device/ti/jacinto6evm" revision="d6d7424d34b30df8a365037d7998ff37e20d52f2" upstream="d-oreo-mr1-release"/>
+  <project groups="device,ti" name="liyaoshi/jacinto6evm" remote="liyaoshi"  path="device/ti/jacinto6evm" revision="d6d7424d34b30df8a365037d7998ff37e20d52f2" upstream="d-oreo-mr1-release"/>
   <project groups="ti" name="device/ti/proprietary-open" revision="cbb5002d6428d7ca5e1730e7854190e5692adf8b" upstream="d-oreo-mr1-release"/>
   <project groups="ti" name="ipc/ipcdev" path="hardware/ti/ipc" remote="git-ti-com" revision="6a2595a4148fb12f259efc19164a9d33ad2ed294" upstream="refs/tags/3.47.01.00"/>
   <project groups="ti" name="ipc/ludev" path="hardware/ti/linuxutils" remote="git-ti-com" revision="b687f3c3658221cdb2731e2421a26004ee7193b8" upstream="refs/tags/4.14.01.00"/>
